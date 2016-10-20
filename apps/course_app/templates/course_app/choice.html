@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course</title>
+</head>
+<body>
+    <h3>Are you sure you want to delete the following course?</h3>
+    <!-- <label for="name">Name: <input type="text" name="name" value="{{name}}"></label>
+    <label for="description">Description: <input type="text" name="description" value="{{description}}"></label> -->
+    <p>Name: {{name}}</p>
+    <p>Description: {{description}}</p>
+    <!-- <p>id: {{id}}</p> -->
+    <!-- <form action="/yes/{{course.id}}" method="post"> -->
+       <!--  <input type="hidden" name="id" value="{{id}}"> -->
+       <a href="/yes/{{id}}">yes</a>
+        <!-- <input type="submit" name="Submit" value="Yes"> -->
+        <a href="/no/{{id}}">no</a>
+    </form>
+</body>
+</html>
